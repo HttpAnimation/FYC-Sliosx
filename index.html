@@ -14,13 +14,13 @@
     
     <script class="silex-script"></script>
     
-    <title> - Page 1</title>
+    <title> - index.html</title>
     
 
     
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" class="silex-custom-font"><meta name="viewport" content="width=device-width, initial-scale=1"><script src="js/onswipe.js" type="module"></script><script src="js/unslider-min.js"></script><link rel="stylesheet" href="css/unslider.css"><script src="js/script.js"></script><link href="css/styles.css" rel="stylesheet"><style>body { opacity: 0; transition: .25s opacity ease; }</style></head>
 
-<body class="body-initial all-style enable-mobile prevent-resizable prevent-selectable editable-style silex-runtime silex-published" data-new-gr-c-s-loaded="14.1150.0" data-current-page="page-page-1">
+<body class="body-initial all-style enable-mobile prevent-resizable prevent-selectable editable-style silex-runtime silex-published" data-new-gr-c-s-loaded="14.1150.0" data-current-page="page-index-html">
     
 
 
@@ -50,11 +50,11 @@
 
 
 
-<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration><section class="container-element editable-style silex-id-1474394621033-3 section-element prevent-resizable page-page-1 paged-element paged-element-visible">
-        <div class="editable-style silex-element-content silex-id-1474394621032-2 container-element website-width selected"><div class="editable-style html-element silex-id-1705952227694-2 silex-component-slideshow silex-use-height-not-minheight"><div class="silex-element-content"><div id="parent_1705953954037_881">
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration><section class="container-element editable-style silex-id-1474394621033-3 section-element prevent-resizable page-page-1 page-index-html paged-element paged-element-visible">
+        <div class="editable-style silex-element-content silex-id-1474394621032-2 container-element website-width selected"><div class="editable-style html-element silex-id-1705952227694-2 silex-component-slideshow silex-use-height-not-minheight"><div class="silex-element-content"><div id="parent_1705954434483_349">
 <!-- preview -->
 
-<div id="id_1705953954037_881">
+<div id="id_1705954434483_349">
   <!-- runtime -->
   <!-- the whole slideshow -->
   <ul class="prodotype-runtime">
@@ -88,13 +88,13 @@
     // do not start in the editor (it would mess with the markup)
     if(!$('body').hasClass('silex-runtime')) return;
 
-    var $slider = $('#id_1705953954037_881')
+    var $slider = $('#id_1705954434483_349')
     var slider = $slider.unslider({
-      'autoplay': false,
+      'autoplay': true,
       'speed': 750,
       'delay': 3000,
       'index': 0,
-      'nav': true,
+      'nav': false,
       'animation': 'horizontal',
       'arrows': true
     });
@@ -104,7 +104,7 @@
     var silexElement = $slider.closest('.editable-style');
     var elementMinHeight = silexElement.css('height');
     var elementWidth = silexElement.css('width');
-    $('#id_1705953954037_881 li .slide-image').css({
+    $('#id_1705954434483_349 li .slide-image').css({
       'height': elementMinHeight
     });
     
